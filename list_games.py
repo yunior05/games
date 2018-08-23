@@ -25,6 +25,12 @@ Portal = main.Games("Portal",
 						"https://upload.wikimedia.org/wikipedia/commons/d/df/Portal_logo.png",
 						"https://www.youtube.com/watch?v=TluRVBhmf8w")
 
-games = [League_of_Legends, Legend_of_Zelda, Fortnite, Portal]
+Pokemon_Perla = main.Games("Pokemon Pearl",
+							"28/09/2006",
+							"RPG",
+							"https://images-na.ssl-images-amazon.com/images/I/41cg5eaAdjL.jpg",
+							"https://www.youtube.com/watch?v=4WanmE8BUC4")
+
+games = [League_of_Legends, Legend_of_Zelda, Fortnite, Portal, Pokemon_Perla]
 
 fresh_tomatoes.open_movies_page(games)
